@@ -1,3 +1,143 @@
+/* a supprimer à la fin */
+.myclass {
+    border: 1px solid black !important;
+}
+
+body {
+    background-color:#f4f5f6;
+}
+
+/* @font-face {
+    font-family: "RobotoCondensed";
+    src: url("../fonts/google-fonts/Roboto-Condensed/R");
+    src: url("CustomFont.woff") format("woff"),
+    url("CustomFont.otf") format("opentype"),
+    url("CustomFont.svg#filename") format("svg");
+} */
+
+header a.link-logoheader svg {
+    fill: white;
+}
+
+ul.nav-link {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+ul.nav-link > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul.nav-link > li > a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+ul.nav-link > li {
+    text-align: center;
+    min-width: 4.7em;
+    border-right: 1px solid #d9d9d9;
+}
+
+
+ul.nav-link > li  input {
+    width: 7.2em;
+    border: none;
+}
+
+ul.nav-link > li:last-of-type {
+    border-right: none;
+}
+
+article > h4:hover, .middlepage-title-articlesecondgrp:hover, article > h6>a:hover {
+    text-decoration: underline;
+    text-decoration-color:red;
+}
+
+article > h6>a, article > h6>a:hover {
+    color: black;
+}
+
+
+
+
+
+header,
+main {
+    background-color: white;
+}
+
+.weather-widget, .weather-widget:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.date-header {
+    color: white;
+}
+
+.leftelt-header > button:first-of-type {
+    color: white;
+}
+
+.principal-part-header {
+    background-color: red;
+}
+
+.bckground-firstblock-mainlastelt {
+    background-color: #f4f5f6;
+}
+
+.logo-lastelt-aside {
+    text-transform: uppercase;
+    flex: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.section-articles {
+    display: inline-block;
+}
+
+.articles-left {
+    display: inline;
+}
+
+
+
+.mini-logo {
+    text-transform: uppercase;
+    flex: none;
+    display: inline-block;
+    width: 29px;
+    height: 28px;
+    background: url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+footer .link-logofooter svg {
+    width: 236px;
+    height: 36px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    fill: #f72210;
+}
+
+.page-footer .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    /* margin-bottom: 10px; */
+    vertical-align: bottom;
+}
+
 .subcategoryarticles-typesecond-grp {
     position: absolute;
     bottom: 14%;
@@ -21,15 +161,86 @@
     text-transform: capitalize;
 }
 
+
 .img-newsletter {
     background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
-    background-repeat-x: no-repeat;
-    background-repeat-y: no-repeat;
     background-attachment: initial;
     width: 100%;
     height: 100%;
 
+}
+
+
+.nav-link > li, .section-footerlink > ul >  li {
+    display: inline-block;
+}
+
+.separationline-footer {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer .section-footerlink >ul {
+    padding-left: 0;
+}
+
+ footer .section-footerlink > ul > li {
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    border-right: 1px solid #d9d9d9;
+}
+
+.section-footerlink > ul > li:nth-child(6) {
+    border-right: none;
+}
+
+.section-footerlink > ul > li:last-of-type 
+
+footer {
+    margin-bottom: 3em;
+}
+
+.section-footerlink > ul > li > a {
+    color : #666;
+}
+/* pb here */
+.section-footerlink {
+    padding-left: 0;
+}
+
+.footer-fab-icon > li {
+    display: inline-block;
+    margin-right: 0.5em;
+    /* vertical-align: middle; */
+    color:#666;
+}
+
+.footer-fab-icon > li > i {
+    font-size: 1.55em;
+}
+
+.elt-superimposed {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.principal-elt-superimposed {
+    z-index: 1;
+    margin: 0px;
+    /* background: green; */
+}
+
+.second-elt-superimposed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    left: 20%;
+    /* opacity: 0.7; */
+    /* background: red; */
 }
