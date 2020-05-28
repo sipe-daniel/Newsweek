@@ -22,6 +22,11 @@ body {
   margin-bottom: 0;
 }
 
+.link-logoheader > svg,
+.link-logofooter > svg {
+  enable-background: new 0 0 395.6 60;
+}
+
 @media (max-width: 991.98px) {
   .link-logoheader > svg {
     width: 200px;
