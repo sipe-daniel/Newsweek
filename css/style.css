@@ -6,6 +6,10 @@ body {
   background-color: #f4f5f6;
 }
 
+.fristcathegories-articles {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 .weather-icon {
   width: 24px;
   height: 24px;
@@ -135,7 +139,7 @@ header a.link-logoheader svg {
 
 .middlepage-title-articlesecondgrp {
   font-weight: bold;
-  size: 2em;
+  font-size: 17px;
 }
 
 ul.nav-link {
@@ -266,9 +270,21 @@ main {
   z-index: 2;
 }
 
-.subcategoryarticles-typesthird-grp {
+.subcategoryarticles-style {
   color: #f72210;
   text-transform: capitalize;
+}
+
+.subtitleright-style {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.size-rightarticles {
+  font-size: 17px;
 }
 
 .img-newsletter {
