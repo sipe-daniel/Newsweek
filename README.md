@@ -1,7 +1,7 @@
 # Newsweek
 This project consists of building an Bootstrap document that matches the appearance of Newsweek
 
-![screenshot](./preview1.png)
+![screenshot](./preview.png)
 
 Additional description about the project and its features.
 
