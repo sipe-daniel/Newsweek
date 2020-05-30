@@ -227,6 +227,11 @@ main {
   background-color: #f4f5f6;
 }
 
+.bckground-firstblock-mainlastelt > div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .logo-lastelt-aside {
   text-transform: uppercase;
   flex: none;
@@ -476,6 +481,11 @@ footer {
 
 .wrapper-smimglogo {
   margin-top: 2em;
+}
+
+.wrapper-smimglogo > span {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .img.thirdblock-sizesmlogo {
