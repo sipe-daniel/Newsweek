@@ -32,6 +32,12 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .three-bars {
+    display: inline;
+    color: white;
+    margin-left: 0.5em;
+  }
+
   .link-logoheader > svg {
     width: 200px;
   }
@@ -47,20 +53,26 @@ body {
     padding-bottom: 0.3em;
   }
 
-  div.three-bars {
-    display: inline;
-    color: white;
-    margin-left: 0.5em;
-  }
-
   .principal-part-header > div:nth-child(3) > div {
     float: right;
   }
+}
 
+@media (min-width: 576px) {
+  .user-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
   .user-icon {
     display: inline;
     margin-right: 0.5em;
     color: #ecf0f1;
+  }
+
+  .btn.btn-login {
+    display: none;
   }
 }
 
@@ -100,8 +112,7 @@ ul.nav-link > li {
 }
 
 @media (min-width: 991.98px) {
-  .three-bars,
-  .user-icon {
+  .three-bars {
     display: none;
   }
 
