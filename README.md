@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/sipe-daniel/Newsweek/379bff7a65bc59cf6fd2eb9c4a71370d48c55bb0/index.html)
+[Live Demo Link](https://rawcdn.githack.com/sipe-daniel/Newsweek/c0b3acb13beadd7641dc94b3aa0eb2e7a07f07a9/index.html)
 
 ## Author
 
